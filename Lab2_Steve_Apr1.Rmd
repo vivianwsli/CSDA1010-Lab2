@@ -1,0 +1,23 @@
+---
+title: "lab2"
+output: pdf_document
+---
+
+```{r}
+avocado<-read.csv("avocado.csv")
+avocado
+```
+```{r}
+str(avocado)
+```
+
+```{r}
+summary(avocado)
+```
+
+```{r}
+albany <- subset(avocado, region == "Albany")
+albany
+```
+
+
